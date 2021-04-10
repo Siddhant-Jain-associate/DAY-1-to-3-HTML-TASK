@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <title>Checkout | Page</title>
+</head>
+<body>
+    <div class="main">
+        <div class="inner-1">
+            <div class="checkout-div">
+                <span style="line-height: 2; font-weight: bolder;color:rgb(94, 92, 92);">Checkout</span>
+                <nav style="line-height:0.1" aria-label="Breadcrumb" class="breadcrumb">
+                    <ul>
+                        <li><a href="">Shipping</a></li>
+                        <li><a href="" style="font-weight: bolder;color:rgb(94, 92, 92)">Payment Method</a></li>
+                        <li><a href="">Confirmation</a></li>
+                    </ul>
+                </nav>
+                    
+            </div>
+            <div style="padding: 3px;">
+                <i class="fas fa-window-close"></i>
+            </div>
+        </div>
+        <div class="left-right">
+            <div class="left">
+                <p>Wallets</p>
+                <hr style="color:grey">
+                <div id="content">
+                    <div>
+                      <h2>Ended with 6759</h2>
+                      <img src="./images/cards/discover.png" class="images" />
+                    </div>
+                    <div>
+                      <h2>Ended with 5657</h2>
+                      <img style="box-shadow:0px 0px 7px 12px lightslategrey;border-radius: 4%;" src="./images/cards/mastercard.png" class="images" />
+                    </div>
+                    <div>
+                      <h2>Ended with 8833</h2>
+                      <img src="./images/cards/visa.png" class="images" />
+                    </div>
+                </div>
+                <p class="new-card">New Card</p>
+                <hr style="color:grey">
+                
+                <form class="form">
+                    <input type="text" name="name-on-card" placeholder="Name on card" /><br/>
+                    <input type="number" name="card-no" placeholder="XXXX-XXXX-XXXX" /><br/>
+                   <div class="cvv-date"> 
+                        <input type="text" name="expirydate" placeholder="MM/YY" />
+                        <input type="text" name="CVV" placeholder="CVV" />
+                    </div>
+                    <button type="submit"><span>Continue</span></button>
+                    
+                </form>
+            </div>
+            <div class="right">
+                <ul>
+                    <li style="display: flex; justify-content: space-between;">
+                        <div style="display: flex;"> <div><img src="./images/products/mobile-holder.jpg" width="75px" height="75px" style="border: 5px solid lightgrey;" alt="Mobile Holder"/></div>
+                        <div><p>Mobile Holder</p>
+                        <p style="font-size:0.7rem;">Black</p>
+                        <p style="font-size: 0.8rem;">Quantity: 1</p></div></div>
+                       
+                        <span>$10.00</span>
+                    </li>
+                    <hr>
+                    <li style="display: flex; justify-content: space-between;">
+                        <div style="display: flex;"> <div><img src="./images/products/rado.jpg" width="75px" height="75px" style="border: 5px solid lightgrey;" alt="Mobile Holder"/></div>
+                        <div><p>Mobile Holder</p>
+                        <p style="font-size:0.7rem;">Black</p>
+                        <p style="font-size: 0.8rem;">Quantity: 1</p></div></div>
+                       
+                        <span>$10.00</span>
+                    </li>
+                    <hr>
+                    <li style="display: flex; justify-content: space-between;">
+                        <div style="display: flex;"> <div><img src="./images/products/hard-case.jpg" width="75px" height="75px" style="border: 5px solid lightgrey;" alt="Mobile Holder"/></div>
+                        <div><p>Mobile Holder</p>
+                        <p style="font-size:0.7rem;">Black</p>
+                        <p style="font-size: 0.8rem;">Quantity: 1</p></div></div>
+                       
+                        <span>$10.00</span>
+                    </li>
+                    <hr>
+                    <li style="display: flex; justify-content: space-between;">
+                        <div style="display: flex;"> <div><img src="./images/products/usb-c-2-micro.jpeg" width="75px" height="75px" style="border: 5px solid lightgrey;" alt="Mobile Holder"/></div>
+                        <div><p>Mobile Holder</p>
+                        <p style="font-size:0.7rem;">Black</p>
+                        <p style="font-size: 0.8rem;">Quantity: 1</p></div></div>
+                       
+                        <span>$10.00</span>
+                    </li>
+                </ul>
+                <div class="total">
+                    <div class="price margin-left-right"><span>Sub Total</span><span>$100.00</span></div>
+                    <div class="price margin-left-right"><span>Shipping</span><span>$10.00</span></div>
+                    <div class="price margin-left-right"><span>Taxes</span><span>$5.00</span></div>
+                </div>
+                <div class="price margin-left-right" style="margin-top: 5px;"><span>Total</span><span>$115.00</span></div>
+
+
+        </div>
+    </div>
+</body>
+</html>
